@@ -1,7 +1,7 @@
 const Sequelize=require("sequelize");
 
 
-module.exports = sequelize.define("User",{
+module.exports = sequelize.define(User,{
   id:{
     type:Sequelize.INTEGER(11),
     allowNull:false,
@@ -40,6 +40,4 @@ module.exports = sequelize.define("User",{
     type:Sequelize.STRING(20),
     allowNull:false
   }
-}, {
-  freezeTableName: true
 });
