@@ -1,7 +1,7 @@
 const Sequelize=require("sequelize");
 
 
-module.exports = sequelize.define("Product",{
+module.exports = sequelize.define("product",{
       id:{
         type:Sequelize.INTEGER(11),
         allowNull:false,
