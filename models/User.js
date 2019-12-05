@@ -1,7 +1,7 @@
 const Sequelize=require("sequelize");
 
 
-module.exports = sequelize.define(User,{
+module.exports = sequelize.define('User',{
   id:{
     type:Sequelize.INTEGER(11),
     allowNull:false,
