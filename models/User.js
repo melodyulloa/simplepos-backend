@@ -40,4 +40,6 @@ module.exports = sequelize.define("User",{
     type:Sequelize.STRING(20),
     allowNull:false
   }
+}, {
+  freezeTableName: true
 });
