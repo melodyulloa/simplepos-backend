@@ -7,7 +7,7 @@ var app= express();
 
 //database connection
 require("./database/connection");
-var port= process.env.port || 3001;
+var port= process.env.PORT || 3001;
 
 //passport middleware
 app.use(passport.initialize());
